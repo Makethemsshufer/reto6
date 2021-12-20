@@ -13,10 +13,11 @@ public class Product {
     private String reference;
     private String brand;
     private String category;
+    private String name;
     private String description;
-    private boolean availability;
+    private boolean availability = true;
     private double price;
-    private Integer quantity;
+    private int quantity;
     private String photography;
 
 }
